@@ -16,7 +16,7 @@ Este proyecto es una aplicación web interactiva desarrollada en JavaScript que 
   - **Mayor a menor** (orden descendente)
   - **Menor a mayor** (orden ascendente)
 - **Detección de duplicados e igualdad:** Notifica de forma clara si los tres números son completamente iguales.
-- **Salida multicanal:** Muestra los resultados de forma simultánea a través del **DOM** (pantalla del navegador).
+- **Salida multicanal:** Muestra los resultados de forma simultánea a través de la consola.
 
 ---
 

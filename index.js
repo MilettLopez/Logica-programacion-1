@@ -36,12 +36,11 @@ if (num1 === num2 && num2 === num3) {
   const centro = mayorAMenor[1];
   const menor = mayorAMenor[2];
 
+console.log("RESULTADOS ");
+  console.log(`Número Mayor: ${mayor}`);
+  console.log(`Número del Centro: ${centro}`);
+  console.log(`Número Menor: ${menor}`);
+  console.log(`Orden Mayor a Menor: ${mayorAMenor.join(", ")}.`);
+  console.log(`Orden Menor a Mayor: ${menorAMayor.join(", ")}.`);
 
-  // Imprimir los resultados en el DOM (Pantalla)
-  document.body.innerHTML += `
-    <h2>Resultados</h2>
-    <p><strong>Mayor:</strong> ${mayor} | <strong>Centro:</strong> ${centro} | <strong>Menor:</strong> ${menor}</p>
-    <p><strong>De mayor a menor:</strong> ${mayorAMenor.join(", ")}.</p>
-    <p><strong>De menor a mayor:</strong> ${menorAMayor.join(", ")}.</p>
-  `;
 }
